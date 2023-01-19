@@ -19,14 +19,19 @@
   --link-font-size: 16px;
   --link-font-weight: 500;
   --img-border-grey: 1px solid #ebecf0;
+  --accent-purple: #BD09FF;
+  --neutral-bright-purple: #E8C7F5;
 }
 
 a {
-  text-decoration: none;
-  color: black;
+  color: var(--accent-purple);
   font-family: var(--link-font-family);
   font-size: var(--link-font-size);
   font-weight: var(--link-font-weight);
+}
+
+a:hover {
+  color: var(--neutral-bright-purple);
 }
 
 h1 {
@@ -48,6 +53,12 @@ h3 {
 }
 
 p {
+  font-family: var(--p-font-family);
+  font-size: var(--p-font-size);
+  font-weight: var(--p-font-weight);
+}
+
+li{
   font-family: var(--p-font-family);
   font-size: var(--p-font-size);
   font-weight: var(--p-font-weight);
@@ -155,6 +166,10 @@ footer {
 .cs-text-container {
   /* border: 2px solid green; */
   padding: 0% 2%;
+}
+
+.cs-text-container > ul > li {
+  padding: 3px 0%;
 }
 
 .headline {
