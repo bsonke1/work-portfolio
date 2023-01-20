@@ -74,7 +74,7 @@ header {
 }
 
 section {
-  padding: 0 7%;
+  padding: 0 8%;
 }
 
 .img-border-grey{
@@ -147,7 +147,7 @@ footer {
 
 .overview {
   background-color: #ebecf0;
-  padding: 3% 7%;
+  padding: 3% 8%;
 }
 
 .cs-chapter {
@@ -157,6 +157,7 @@ footer {
 
 .cs-img-container {
   /* border: 2px solid red; */
+  display: flex;
 }
 
 .cs-img-container > img {
@@ -165,7 +166,6 @@ footer {
 
 .cs-text-container {
   /* border: 2px solid green; */
-  padding: 0% 2%;
 }
 
 .cs-text-container > ul > li {
