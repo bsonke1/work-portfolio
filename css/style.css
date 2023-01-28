@@ -114,6 +114,11 @@ footer {
   border-radius: 10px;
 }
 
+.cs-card > a{
+  text-decoration: none;
+  color: black;
+}
+
 .cs-card:hover {
   box-shadow: 2px 3px 5px #bebebe;
   /* ****CREATE ANIMATION -- CARD HOVERS UP SLIGHTLY**** */
