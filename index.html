@@ -5,100 +5,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Brooke Sonke Portfolio</title>
+    <title>Home - B. Sonke Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;600&family=Montserrat:wght@400;500&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../work-portfolio/css/style.css">
+
 </head>
 
 <body>
-    <navbar>
-        <a href="../work-portfolio/index.html">
-            <logo class="logo-container">
-                <img src="#">
-            </logo>
-        </a>
-        <links>
-            <a href="#">Link</a>
-            <a href="#">Link</a>
-            <a href="#">Link</a>
-        </links>
-    </navbar>
-    <content>
-        <header>
-            <h1>Hello! I'm Brooke Sonke. </h1>
-            <h2>I solve problems in User and Learning Experience Design with special interests in UX Strategy, design
-                systems, logic, and
-                human behavior.</h2>
-        </header>
-        <section>
-            <div class="grid-container">
-                <div class="cs-card">
-                    <a href="../work-portfolio/nflx-prototype.html">
-                        <div class="cs-card-img-container">
-                            <img class="card-img" src="../work-portfolio/images/placeholder-img.png">
-                        </div>
-                        <div class="cs-card-text-container">
-                            <h3>Building a Testable Rapid Prototype with Figma Components, Incl. New Feature</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lobortis enim at vulputate
-                                congue.
-                            </p>
-                        </div>
-                    </a>
-                </div>
+    <nav class="navbar navbar-expand-lg">
+        <div class="px-4 container-fluid">
+            <a class="navbar-brand" href="../work-portfolio/index.html">
+                <h4 class="nav-logo">b.sonke</h4>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <a href="../work-portfolio/contact.html" class="ms-auto btn btn-primary">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <content class="homepage d-lg-flex flex-column">
+        <section class="mt-4 mx-lg-auto hero-text-box">
+            <h1>Hi, I'm Brooke.</h1>
+            <h2>I solve human problems with design to drive business growth.</h2>
+            <div class="d-lg-flex d-grid gap-2 mt-4">
+                <a class="btn btn-primary" href="../work-portfolio/contact.html" role="button">Contact</a>
+                <a class="btn btn-secondary"
+                    href="https://docs.google.com/document/d/1dlST3x3Pk9YCMRvmXKfD5aWXlusydi4qlEN9I0bEd4o/edit?usp=share_link"
+                    role="button">Download Resume
+                </a>
+            </div>
+        </section>
 
-
-                <div class="cs-card">
-                    <a href="../work-portfolio/cstemplate.html">
-                        <div class="cs-card-img-container">
-                            <img class="card-img" src="../work-portfolio/images/placeholder-img.png">
+        <section class="container">
+            <div class="row row-cols-1 row-cols-lg-3">
+                <a href="../work-portfolio/nflx.html" class=" col-lg-4 text-decoration-none">
+                    <div class="card my-3" style="width: 100%;">
+                        <img src="../work-portfolio/images/nflx-card-cover-desktop.png" class="card-img-top" alt="Netflix rapid prototype mockup">
+                        <div class="card-body">
+                            <h3 class="card-title">Rapid Netflix Desktop Prototype for Student Usability Test Practice
+                            </h3>
                         </div>
-                        <div class="cs-card-text-container">
-                            <h3>Lorem ipsum</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lobortis enim at vulputate
-                                congue.
-                            </p>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- ****REPLACE THE FOLLOWING WITH UPDATE CS-CARD DIV ABOVE****
-                    <div class="cs-card">
-                    <div class="cs-card-img-container">
-                        <img class="card-img" src="../work-portfolio/images/placeholder-img.png">
                     </div>
-                    <div class="cs-card-text-container">
-                        <h3>Lorem ipsum</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lobortis enim at vulputate congue.</p>
-                    </div>
-                </div>
-                <div class="cs-card">
-                    <div class="cs-card-img-container">
-                        <img class="card-img" src="../work-portfolio/images/placeholder-img.png">
-                    </div>
-                    <div class="cs-card-text-container">
-                        <h3>Lorem ipsum</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lobortis enim at vulputate congue.</p>
-                    </div>
-                </div>
-                <div class="cs-card">
-                    <div class="cs-card-img-container">
-                        <img class="card-img" src="../work-portfolio/images/placeholder-img.png">
-                    </div>
-                    <div class="cs-card-text-container">
-                        <h3>Lorem ipsum</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lobortis enim at vulputate congue.</p>
-                    </div>
-                </div> -->
+                </a>
             </div>
         </section>
     </content>
-    <footer>
-        <h3>This is a footer.</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lobortis enim at vulputate congue.</p>
-    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
