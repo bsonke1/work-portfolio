@@ -130,6 +130,11 @@ img{
   font-size: var(--p-font-size)
 }
 
+.portfolio-img {
+  max-height: 250px;
+  width: auto;
+}
+
 .homepage{  
   text-align: center;
 }
