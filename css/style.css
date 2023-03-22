@@ -38,7 +38,7 @@
   --h4-lg-font-weight: 700;
   --h5-lg-font-size: 16px;
   --h5-lg-font-weight: 700;
-  --p-lg-font-size: 14px;
+  --p-lg-font-size: 16px;
 }
 
 body{
@@ -75,7 +75,7 @@ h5 {
   font-weight: var(--h5-font-weight);
 }
 
-p {
+p, li {
   font-size: var(--p-font-size);
   font-weight: var(--p-font-weight);
 }
@@ -197,7 +197,7 @@ img{
     font-weight: var(--h5-lg-font-weight);
   }
   
-  p {
+  p, li {
     font-size: var(--p-lg-font-size);
     font-weight: var(--p-font-weight);
   }
@@ -222,6 +222,10 @@ img{
 
 .inline-link{
   font-size: var(--p-lg-font-size)
+}
+
+.portfolio-img {
+  max-height: 350px;
 }
 
 }
