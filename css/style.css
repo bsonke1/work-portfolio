@@ -139,6 +139,10 @@ img{
   text-align: center;
 }
 
+.hero-text-box {
+  text-align: center;
+}
+
 .hero-text-box > h1, h2, p {
   margin-bottom: 1rem;
 }
@@ -207,7 +211,6 @@ img{
   }
 
   .hero-text-box{
-  text-align: center;
   width: 48%;
 }
 
